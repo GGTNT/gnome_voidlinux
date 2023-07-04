@@ -1,5 +1,5 @@
 sudo xbps-install -Su
-sudo xbps-install gdm xorg gnome dbus pulseaudio alsa-utils alsa-tools apulse bluez sox flatpak network-manager-applet
+sudo xbps-install gdm xorg gnome dbus pulseaudio alsa-utils alsa-tools apulse bluez sox flatpak network-manager-applet void-repo-nonfree void-repo-multilib-nonfree void-repo-multilib
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub com.brave.Browser
 sudo ln -s /etc/sv/alsa /var/service/
