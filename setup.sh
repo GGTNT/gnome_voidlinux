@@ -5,5 +5,5 @@ sudo ln -s /etc/sv/dbus /var/service/
 sudo ln -s /etc/sv/lightdm /var/service/
 sudo ln -s /etc/sv/bluetoothd /var/service
 sudo ln -s /etc/sv/pulseaudio /var/service/
-sudo usermod -aG audio votre_utilisateur
+sudo usermod -aG audio theo
 sudo reboot
